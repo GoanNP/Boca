@@ -1,0 +1,71 @@
+body {
+    background-image: url('assets/images/Mapafundo.png');
+    opacity: 1.0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .container {
+    background-image: linear-gradient(#1100ff, #1100ff00);
+    padding: 60px;
+    text-align: center; 
+    margin: 0 auto; 
+    
+    
+  }
+
+  .container img{
+
+    margin-left: 112px;
+
+  }
+
+  
+  h1 {
+    
+    color: #000000;
+    font-size: 20px;
+   
+    
+    
+    
+  }
+
+  #map {
+    width: 70%; 
+    height: 450px;
+    margin: 0 auto; /* Adicionado para centralizar verticalmente o mapa */
+    border: 1px solid black;
+    
+}
+
+    .pontos {
+        width: 200px; /* Defina o tamanho desejado */
+        height: auto; /* A altura será ajustada proporcionalmente */
+  }
+
+  /* Estilos para o menu lateral */
+  .sidebar {
+    width: 100px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 1200px;
+    
+}
+
+/* Estilos para o conteúdo da página */
+.content {
+    margin-left: 80px; /* Espaçamento para acomodar o menu lateral */
+    padding: 20px;
+}
+
+
+
+  
+
+
+
+   
+  
